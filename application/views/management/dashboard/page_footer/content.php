@@ -1,0 +1,1 @@
+<small> Page footer - Page Rendered in <strong>{elapsed_time}</strong> seconds </small>

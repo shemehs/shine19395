@@ -1,0 +1,382 @@
+/* 
+Author: Start Bootstrap - http://startbootstrap.com
+'SB Admin' HTML Template by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* ATTN: This is mobile first CSS - to update 786px and up screen width use the media query near the bottom of the document! */
+
+/* Global Styles */
+
+body.with-top-nav{
+  margin-top: 50px;
+}
+body.without-top-nav{
+   margin-top: 0px;
+}
+
+#page-body-content-wrapper{
+  padding: 0;
+  
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 5px 15px;
+}
+#page-content-wrapper{
+  /*background: url('../img/maroon_bg.png');  */
+  padding:0px;
+  margin:0px;
+  border: 1px solid blue;
+}
+#page-content-container{
+  border: 1px solid red;
+  width: 100%;
+  padding: 5px 15px;
+  
+}
+
+#page-header {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+#page-footer {
+
+  width: 100%;
+  padding: 5px 15px;
+  min-height:30px;
+  background: url('../img/maroon_bg.png');
+}
+#page-submenu{
+  width: 100%;
+  padding: 5px 15px;
+}
+ #page-date-time-info{
+  width: 100%;
+  padding: 5px 15px;
+}
+#page-breadcrumb{
+  width: 100%;
+  padding: 5px 15px;
+}
+#page-alerts{
+  width: 100%;
+  padding: 5px 15px;
+}
+
+
+#user-page-wrapper-header{
+	height:45px;
+}
+#admin-page-wrapper-header{
+	height:75px;
+}
+
+ .page-breadcrumb-container{
+ 
+	
+ 
+ }
+.page-header-container{
+
+	width:100%;
+	padding:0px;
+	margin:0px;
+
+}
+.page-submenu-container{
+
+	width:100%;
+	padding:0px;
+	margin:0px;
+
+}
+.navbar{
+
+	background: url('../img/maroon_bg.png'); 
+  height:50px;
+}
+/* Nav Messages */
+
+.messages-dropdown .dropdown-menu .message-preview .avatar,
+.messages-dropdown .dropdown-menu .message-preview .name,
+.messages-dropdown .dropdown-menu .message-preview .message,
+.messages-dropdown .dropdown-menu .message-preview .time {
+  display: block;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .avatar {
+  float: left;
+  margin-right: 15px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .name {
+  font-weight: bold;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .message {
+  font-size: 12px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .time {
+  font-size: 12px;
+}
+
+
+/* Nav Announcements */
+
+.announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+.announcement-text {
+  margin: 0;
+}
+
+/* Table Headers */
+
+table.tablesorter thead {
+  cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+  background-color: #f5f5f5;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+  /* Wrappers */
+
+  #page-body-content-wrapper.page-body-content-wrapper-with-collapse-side-nav {
+	padding-left: 225px;
+  }
+  #page-body-content-wrapper.page-body-content-wrapper-without-collapse-side-nav{
+  
+	padding-left: 0px;
+  
+  }
+
+  #page-wrapper {
+	 padding: 10px 25px;
+	
+  }
+  #page-header {
+	 padding: 5px 25px;
+	
+  }
+  #page-footer {
+	padding: 5px 25px;
+	
+  }
+  #page-container{
+    border: 1px solid grey;    
+  }
+  #page-submenu{
+	padding: 5px 25px;
+
+  }
+  #page-breadcrumb{
+	padding: 5px 15px;
+
+  }
+  #page-date-time-info{
+	padding: 5px 25px;
+  }
+  #page-breadcrumb{
+	padding: 5px 25px;
+	}
+ #page-alerts{
+
+  padding: 5px 25px;
+}
+  /* Side Nav */
+
+  .side-nav {
+	margin-left: -225px;
+	left: 225px;
+	width: 225px;
+	position: fixed;
+	top: 50px;
+	bottom: 0px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+	background-color: #222222;
+	overflow-y: auto;
+  }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+
+  .side-nav>li>a {
+	width: 225px;
+  }
+/**** customize style************/
+
+	.side-nav li a{
+		padding: 10px;
+		 border-bottom: 1px solid #535e53; 
+	
+	}
+	.side-nav li.dropdown ul.dropdown-menu li a{ 
+		padding: 5px 30px;
+		
+	}
+	.side-nav li.dropdown ul.dropdown-menu li a:hover{ 
+		background-color: #080808;
+		
+	 }
+/*****************/	
+	
+  .navbar-inverse  .navbar-nav >li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	
+	   background-color: #333333;
+	
+  }
+
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	 min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	   white-space: normal;
+  }
+
+}
+.my-navbar-toggle {
+
+  position: relative;
+  float: right;
+  
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+ 
+  background-color: transparent;
+  border: 1px solid transparent; 
+  border-radius: 4px;
+  
+}
+
+.my-navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.my-navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+.navbar-default .my-navbar-toggle {
+  border-color: #dddddd;
+}
+
+.navbar-default .my-navbar-toggle:hover,
+.navbar-default .my-navbar-toggle:focus {
+  background-color: #dddddd;
+}
+
+.navbar-default .my-navbar-toggle .icon-bar {
+  background-color: #cccccc;
+ 
+}
+
+
+.navbar-inverse .my-navbar-toggle {
+  /* border-color: #333333; */
+  border-color: transparent;
+}
+
+.navbar-inverse .my-navbar-toggle:hover,
+.navbar-inverse .my-navbar-toggle:focus{
+  /* background-color: #333333; */
+ 
+}
+
+.navbar-inverse .my-navbar-toggle:hover .icon-bar,
+.navbar-inverse .my-navbar-toggle:focus .icon-bar{
+
+  background-color: #ffffff;
+}
+
+.navbar-inverse .my-navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+
+@media (min-width: 768px) {
+  .my-navbar-toggle{
+    display: block;
+  }
+  .hide-side-nav{
+	display: none;
+  }
+}
+@media (max-width: 768px) {
+  .my-navbar-toggle {
+    display: none;
+  }
+  .hide-side-nav{
+	display: block;
+  }
+}
+
+.login-form-container{
+	padding:0px;
+	margin:0px;
+}
+.login-form-container .login-form{
+	margin: 25px auto;
+} 
+#login-form-content-conatiner{
+
+   background: url('../img/maroon_bg.png');
+}
+
+

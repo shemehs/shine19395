@@ -1,0 +1,11 @@
+.login-form-container{
+  padding:0px;
+  margin:0px;
+}
+.login-form-container .login-form{
+  margin: 25px auto;
+} 
+#login-form-content-conatiner{
+
+   background: url('../img/maroon_bg.png');
+}

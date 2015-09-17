@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #e8eef1;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 40px auto;
+}
+
+#searchBoxWrapper {
+	width: 217px;
+	height: 28px;
+	margin: 0px auto;
+}
+
+#searchBox {
+	border: none;
+	width: 207px;
+    height: 14px;
+    padding: 8px 5px;
+    color: #5c9bba;
+}
+
+#searchBox.searchBoxNormal {
+	background: url('../img/boxes.png') no-repeat top left;
+}
+
+#searchBox.searchBoxHover {
+    background: url('../img/boxes.png') no-repeat left -30px;
+}
+
+#searchBox.searchBoxActive {
+    background: url('../img/boxes.png') no-repeat left -60px;
+    color: #000;
+}
+
+#exampTable {
+	color: #186e98;
+	width: 200px;
+	border: none;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+#exampTable tr {
+	width: 50%;
+}
